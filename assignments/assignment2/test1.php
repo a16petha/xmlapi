@@ -117,6 +117,7 @@
             $incountry = "";
         }
 
+        session_start();
         // Visar en div med valt land ovanför tabellen
         echo "<div>$incountry</div>";
 
